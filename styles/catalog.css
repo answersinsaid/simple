@@ -1,0 +1,154 @@
+.catalog {
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    display: flex;
+    gap: 130px;
+}
+
+.catalog__content {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    margin-bottom: 130px;
+}
+
+.catalog__content__title {
+    color: rgb(76, 88, 102);
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+}
+
+.catalog__content__text {
+    color: rgb(133, 133, 155);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+
+.catalog__content__button {
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(120, 117, 254);
+    color: rgb(120, 117, 254);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.catalog__image {
+    padding-top: 60px;
+    width: 50%;
+    margin-bottom: 90px;
+}
+
+.catalog__img {
+    background-image: url("/image/catalog/1.png");
+    background-size: no-repeat;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+
+
+
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 691px) {
+    .catalog {
+        gap: 30px;
+    }
+
+    .catalog__content {
+        padding-top: 65px;
+        gap: 30px;
+        margin-bottom: 125px;
+    }
+
+    .catalog__content__title {
+        font-size: 50px;
+    }
+
+    .catalog__content__text {
+        font-size: 18px;
+        line-height: 150%;
+
+    }
+
+    .catalog__image {
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .catalog {
+        gap: 20px;
+    }
+
+    .catalog__content {
+        padding-top: 60px;
+        gap: 30px;
+        margin-bottom: 125px;
+    }
+
+    .catalog__content__title {
+        font-size: 38px;
+    }
+
+    .catalog__content__text {
+        font-size: 16px;
+        line-height: 150%;
+
+    }
+
+    .catalog__image {
+        padding-top: 20px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .catalog {
+        gap: 20px;
+    }
+
+    .catalog__content {
+        padding-top: 60px;
+        gap: 30px;
+        margin-bottom: 100px;
+        width: 100%;
+        
+    }
+
+    .catalog__content__title {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .catalog__content__text {
+        font-size: 14px;
+        line-height: 150%;
+
+    }
+
+    .catalog__image {
+        display: none;
+    }
+    .catalog__content__button {
+        padding: 20px 50px;
+        font-size: 18px;
+        line-height: 21px;
+        
+    }
+}

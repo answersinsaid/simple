@@ -1,0 +1,30 @@
+.wrapper {
+    font-family: Roboto, sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 691px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .wrapper {
+        padding: 0 15px;
+    }
+}

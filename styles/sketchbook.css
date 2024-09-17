@@ -1,0 +1,130 @@
+.sketchbook {
+    padding-top: 90px;
+    margin-bottom: 90px;
+}
+.sketchbook__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.sketchbook__image {
+    width: 70%;
+}
+.sketchbook__img {
+
+    width: 100%;    
+}
+
+.sketchbook__content {
+    padding-top: 25px;
+    width: 30%;
+}
+.sketchbook__title {
+    color: rgb(102, 102, 102);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.sketchbook__text {
+    color: rgb(133, 133, 155);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.sketchbook__button {
+    padding: 25px 95px;
+    box-sizing: border-box;
+    border: 1px solid rgb(120, 117, 254);
+    color: rgb(120, 117, 254);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    align-self: flex-start;
+    }
+    @media screen and (max-width: 992px) {
+        .sketchbook__button {
+            padding: 25px 75px;
+        }
+        .sketchbook__content {
+            padding-top: 0px;
+        }
+
+
+    }
+    
+    @media screen and (max-width: 691px) {
+        .sketchbook__image {
+            max-width: 450px;
+            max-height: 340px;
+        }
+        .sketchbook__img {
+            width: 100%;    
+        }
+        
+        .sketchbook__content {
+            padding-top: 0px;
+            width: 40%;
+        }
+        .sketchbook__title {
+            font-size: 30px;
+            line-height: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 581px) {
+        .sketchbook {
+            padding-top: 60px;
+            margin-bottom: 60px;
+        }
+        .sketchbook__container {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+        .sketchbook__image {
+            width: 100%;
+            height: 100%;
+        }
+        .sketchbook__img {
+            width: 100%;
+            height: 100%; 
+        }
+        
+        .sketchbook__content {
+            padding-top: 0px;
+            width: 100%;
+        }
+        .sketchbook__title {
+            font-size: 24px;
+            line-height: 100%;
+        }
+        .sketchbook__text {
+            font-size: 16px;
+        }
+        .sketchbook__button {
+            padding: 20px 65px;
+        }
+    }
+    
+    @media screen and (max-width: 321px) {
+        .sketchbook__image {
+            width: 100%;
+            height: 100%;
+        }
+        .sketchbook__img {
+            height: 200px;
+            max-width: 300px;   
+        }
+        .sketchbook__button {
+            padding: 15px 40px;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
